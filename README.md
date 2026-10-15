@@ -1,15 +1,6 @@
-# Lecture Studio v2.4 · 사용 안내
+# Lecture Studio 사용 안내
 
 Windows에서 Canvas 강의와 마이크 녹음을 로컬 Whisper로 전사하고 TXT로 저장합니다. AI API 키는 필요 없습니다. 학교 공식 프로그램은 아닙니다. 그림 안내는 **START_HERE.html**을 여세요.
-
-## 기존 PC 업데이트
-
-1. 앱을 종료하고 ZIP을 모두 압축 해제합니다.
-2. `Lecture_Studio` 안 파일을 기존 프로그램 폴더에 덮어씁니다. 기존 `.venv`는 유지합니다.
-3. v2.3 사용자는 `start_windows.bat`로 바로 실행할 수 있습니다. 이전 버전에서 업데이트하거나 누락 패키지 오류가 있으면 `upgrade_ui_windows.bat`를 한 번 실행하세요.
-4. 바로가기는 `create_shortcut_windows.bat` 또는 앱의 **설치 및 도움말 → 바탕화면 바로가기 만들기**로 생성합니다. 프로그램 폴더를 옮겼다면 다시 생성하세요.
-
-실행 환경은 프로그램 폴더 `.venv`, 활성 가상환경, `C:\whisper\whisper_env` 순서로 찾습니다. 다른 위치의 환경은 활성화한 터미널에서 `python app.py`로 실행하세요. ZIP 안에서 바로 실행하지 마세요.
 
 ## 새 PC 설치
 
