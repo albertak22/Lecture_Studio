@@ -1,0 +1,26 @@
+# Python 실행 환경
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 로그인 정보
+.env
+*.dpapi
+browser_profile/
+browser_profiles/
+
+# 녹음·다운로드·전사 결과
+녹음결과/
+recordings/
+videos/
+transcripts/
+_관리정보/
+*.mp3
+*.mp4
+*.wav
+*.part
+
+# 배포 압축·바로가기
+*.zip
+*.lnk
